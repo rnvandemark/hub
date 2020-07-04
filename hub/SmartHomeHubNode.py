@@ -3,7 +3,7 @@ from math import pi as PI
 from rclpy.node import Node
 
 from std_msgs.msg import Empty, Float32
-from smart_home_msgs.msg import										\
+from smart_home_interfaces.msg import								\
 		ModeChange, ModeChangeRequest, DeviceActivationChange,		\
 		CountdownState, WaveParticipantLocation, WaveUpdate,		\
 		Float32Arr

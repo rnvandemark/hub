@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 
 from rclpy import init, spin, shutdown
 
-from smart_home_msgs.msg import ModeChange, CountdownState
+from smart_home_interfaces.msg import ModeChange, CountdownState
 
 from SmartHomeHubNode import SmartHomeHubNode
 #from AudioHandler import AudioHandler

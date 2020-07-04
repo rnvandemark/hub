@@ -3,7 +3,7 @@ import tkinter
 from PIL import Image, ImageTk
 
 from ament_index_python.packages import get_package_prefix
-from smart_home_msgs.msg import ModeChange, CountdownState
+from smart_home_interfaces.msg import ModeChange, CountdownState
 
 from SmartHomeHubController import SmartHomeHubController, WAVE_PERIOD_DEFAULT_S
 
